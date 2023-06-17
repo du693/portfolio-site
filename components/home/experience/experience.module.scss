@@ -1,0 +1,43 @@
+.experience {
+  margin-bottom: 2.4rem;
+  padding: 0 1.2rem 0.4rem;
+
+
+  border-bottom: 1px solid var(--background-light);
+  @media (max-width: 768px){
+    font-size: var(--text-xs);
+    max-width: fit-content;
+}
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content:start;
+
+  margin-bottom: 1.2rem;
+  @media (max-width: 768px){
+    display: grid;
+}
+}
+
+.title {
+  font-size: var(--text-sm);
+  font-weight: bold;
+}
+
+.position {
+  color: var(--brand);
+  font-weight: bold;
+}
+
+.description {
+  margin-bottom: 1.8rem;
+  font-weight: 200;
+}
+
+.tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4rem;
+}

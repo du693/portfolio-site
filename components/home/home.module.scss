@@ -1,0 +1,11 @@
+.home {
+  display:grid;
+  grid-template-columns: 60px 1fr;
+  @media (max-width: 768px) {
+    margin-bottom: 4.8rem;
+    width:fit-content;
+    margin-left: 0px;
+  }
+}
+
+

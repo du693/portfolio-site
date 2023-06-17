@@ -1,0 +1,23 @@
+.sectionHeader {
+  display: flex;
+  align-items: flex-start;
+  gap: 2.4rem;
+  margin-bottom: 2.4rem;
+  
+}
+
+.title {
+  font-size: var(--text-xl);
+  font-weight: 900;
+  text-align: flex-start;
+
+  span {
+    color: var(--brand);
+  }
+
+  @media (max-width: 768px) {
+    font-size: var(--text-lg);
+  }
+}
+
+
