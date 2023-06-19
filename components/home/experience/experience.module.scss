@@ -4,11 +4,13 @@
 
 
   border-bottom: 1px solid var(--background-light);
-  @media (max-width: 768px){
-    font-size: var(--text-xs);
-    max-width: fit-content;
+  @media (max-width: 768px) {
+    width:300px;
+    margin-left:-2rem;
+
+  }
 }
-}
+
 
 .heading {
   display: flex;
@@ -38,6 +40,6 @@
 
 .tech {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap:wrap;
   gap: 4rem;
 }
