@@ -24,7 +24,7 @@ export const Contact = () => {
 						</Link>{" "}
 						or{" "}
 						<Link
-							href="https://www.twitter.com"
+							href="https://www.instagram.com/jackcarleo/"
 							target="_blank"
 							rel="nofollow"
 						>
