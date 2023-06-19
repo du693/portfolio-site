@@ -24,10 +24,21 @@ const projects = [
 		projectLink: "",
 		tech: ["Python, Flask, HTML, CSS"],
 		description:
-			"Currently, the job scraper is local python web scraper that compiles results from popular job boards and displays them in a Flask application. I made this project because navigating through each individual job board was taking up loads of time that I could be using to apply to positions and studying. I figured that this project would not only make the job searching process more efficient but also further develop my skills with Python and app development. While the app is still a work in progress I have already started using and loving it. ",
+			"Currently, the job scraper is local python web scraper that compiles results from popular job boards and displays them in a Flask application. ",
 		modalContent: (
 			<>
-				<p></p>
+				<p>
+					Currently, the job scraper is local python web scraper that
+					compiles results from popular job boards and displays them
+					in a Flask application. I made this project because
+					navigating through each individual job board was taking up
+					loads of time that I could be using to apply to positions
+					and studying. I figured that this project would not only
+					make the job searching process more efficient but also
+					further develop my skills with Python and app development.
+					While the app is still a work in progress I have already
+					started using and loving it.
+				</p>
 			</>
 		),
 	},
@@ -38,26 +49,38 @@ const projects = [
 		projectLink: "https://du693.github.io/bellabeat-case-study/",
 		tech: ["R, Rmarkdown, HTML"],
 		description:
-			"Using the dataset 'FitBit Fitness Tracker Data' provided by MÖBIUS on Kaggle I created a mock case-study where I searched for user patterns of usage in their smart device data in order to gain insights that would later better orientate marketing decisions for Bellabeat, a tech company with a focus in women's smart products.",
+			"Mock case study for Bellabeat, a women's smart product company. ",
 		modalContent: (
 			<>
-				<p></p>
+				<p>
+					Using the dataset 'FitBit Fitness Tracker Data' provided by
+					MÖBIUS on Kaggle I created a mock case-study where I
+					searched for user patterns of usage in their smart device
+					data in order to gain insights that would later better
+					orientate marketing decisions for Bellabeat, a tech company
+					with a focus in women's smart products.
+				</p>
 			</>
 		),
 	},
 	{
 		title: "Portfolio Site",
-		imgSrc: "project-imgs/portfolio.jpg",
+		imgSrc: "project-imgs/portfolio11.jpeg",
 		code: "https://github.com/du693/portfolio-site",
 		projectLink: "https://jackcarleo.vercel.app/",
 		tech: [
 			"React, HTML, Typescript, Javascript, Sass, CSS/JS animations, Framer Motion, Next.js, Vercel",
 		],
-		description:
-			"Inspired by the website created by Tom is loading on youtube, this portfolio website was a my first deployed React project incorporating Typescript, Javascript, Scss, Next.js, and vercel.",
+		description: "And here is the source code for this porfolio website...",
 		modalContent: (
 			<>
-				<p></p>
+				<p>
+					Here is the source code for this porfolio website. Inspired
+					by the website created by Tom is loading on youtube, this
+					portfolio website was a my first deployed React project
+					incorporating Typescript, Javascript, Scss, Next.js, and
+					vercel.
+				</p>
 			</>
 		),
 	},
