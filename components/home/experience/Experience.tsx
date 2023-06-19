@@ -29,15 +29,21 @@ const experience = [
 		location: "",
 		description:
 			"Gained proficiency in Python, object oriented programming, and Database structuring.",
-		skills: ["Python", "Web Scraping", "OOP", "Databases"],
+		skills: ["Python", "Web Scraping", "OOP", "Databases", "API's"],
 	},
 	{
-		title: "Sin a Loa",
-		position: "Resturaunt Server",
-		time: "2023",
-		location: "Salisbury, MA",
+		title: "Sin a Loa & Marathon Sports",
+		position: "Resturaunt Server & Retail Sales Associate",
+		time: "Currently Employed",
+		location: "",
 		description:
-			"Currently working at Sin A Loa on Salisbury Beach as a server. Stop by for some great tacos and tequila :)",
-		skills: ["Customer Service", "Serving"],
+			"Currently working at Sin A Loa on Salisbury Beach as a server & Marathon Sports downtown Newburyport as a retail sales associate. If you are looking for good tacos and margaritas, stop by Sin a Loa :) While Marathon Sports does not sell margaritas we will gladly get you fitted in some great new running/walking shoes.",
+		skills: [
+			"Customer Service",
+			"Serving",
+			"Sales",
+			"Communication",
+			"Organization",
+		],
 	},
 ];

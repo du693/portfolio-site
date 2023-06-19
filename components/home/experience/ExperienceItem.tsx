@@ -25,7 +25,7 @@ export const ExperienceItem = ({
 					<span className={styles.title}>{title}</span>
 				</Reveal>
 				<Reveal>
-					<span>{time}</span>
+					<span>-{time}</span>
 				</Reveal>
 			</div>
 

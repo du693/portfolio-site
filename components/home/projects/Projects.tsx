@@ -75,9 +75,8 @@ const projects = [
 		modalContent: (
 			<>
 				<p>
-					Here is the source code for this porfolio website. Inspired
-					by the website created by Tom is loading on youtube, this
-					portfolio website was a my first deployed React project
+					Here is the source code for this porfolio website. This
+					portfolio website is my first deployed React project
 					incorporating Typescript, Javascript, Scss, Next.js, and
 					vercel.
 				</p>
