@@ -4,6 +4,7 @@ import { SectionHeader } from "@/components/utils/SectionHeader";
 import styles from "./about.module.scss";
 import { Stats } from "./Stats";
 import { AiOutlineArrowRight } from "react-icons/ai";
+import Link from "next/link";
 
 export const About = () => {
 	return (
@@ -14,36 +15,42 @@ export const About = () => {
 					<Reveal>
 						<p className={`${styles.aboutText}`}>
 							As a recent graduate of Providence College (2021)
-							with a degree in Sociology, my exposure to
-							programming was limited to SQL. Though I recognized
-							my interest in this field and have focused on
-							expanding my knowledge in the years since. SQL
-							served as my initial stepping stone, and I am
-							grateful for the opportunity to have learned about
-							it as a Sociology major (thanks Dr. Chelly).
+							with a degree in Sociology, I had little knowledge
+							of anything programming related outside of SQL. SQL
+							was introduced to me in my Social Research Methods
+							class my senior year (thanks Dr. Chelly) and though
+							I had very limited understanding of the topic
+							outside of very basic syntax I was interested in
+							learning more.
 						</p>
 					</Reveal>
 					<Reveal>
 						<p className={`${styles.aboutText}`}>
-							Over the past two years, I have continued to learn
-							CS in my free time while working as a server and
-							shoe salesmen. during this time, I began by working
-							with SQL and R, where I improved my skills in
-							cleaning, organizing, and analyzing extensive
-							datasets. My next focus was Python where I continued
-							to learn about database structuring, along with web
-							scraping, data collection, and Flask app
-							development. This experience ignited my interest in
-							app development, Which lead me to React.
+							SQL was the beginning of my journey that led me to
+							where I am now. To simplify it, my path looked like
+							this: SQL &#8594; R &#8594; Python(Flask) &#8594;
+							ReactJS. I have very much enjoyed learning about
+							each of these languages and their capabilities, but
+							Python and ReactJS have most definitely become my
+							largest focus in the past year.
 						</p>
 					</Reveal>
 					<Reveal>
 						<p className={`${styles.aboutText}`}>
-							This website acts as my first ever hosted react
-							application. Below you will see my other projects I
-							have worked on which I am proud to share.
+							My most recent project is this very website. This
+							represents my first ever deployed React application,
+							if you continue to scroll you will find the other
+							projects I have worked on and take pride in sharing
+							with you.
 						</p>
 					</Reveal>
+					<Reveal>
+						<div>
+							<p className={`${styles.aboutText}`}>Cheers,</p>
+							<p>-Jack</p>
+						</div>
+					</Reveal>
+					<br></br>
 					<Reveal>
 						<div className={styles.links}>
 							<div className={styles.linksText}>

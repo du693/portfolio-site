@@ -21,7 +21,7 @@ const projects = [
 		title: "Job Scraper",
 		imgSrc: "project-imgs/logo.jpg",
 		code: "https://github.com/du693/job-scraper",
-		projectLink: "",
+		projectLink: "https://github.com/du693/job-scraper",
 		tech: ["Python, Flask, HTML, CSS"],
 		description:
 			"Currently, the job scraper is local python web scraper that compiles results from popular job boards and displays them in a Flask application. ",
@@ -59,6 +59,10 @@ const projects = [
 					data in order to gain insights that would later better
 					orientate marketing decisions for Bellabeat, a tech company
 					with a focus in women's smart products.
+				</p>
+				<p>
+					This was the final assignment for the Google Analytics
+					Certification.
 				</p>
 			</>
 		),

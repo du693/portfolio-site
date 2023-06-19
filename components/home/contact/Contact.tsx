@@ -14,7 +14,7 @@ export const Contact = () => {
 				</Reveal>
 				<Reveal width="100%">
 					<p className={styles.contactCopy}>
-						Feel free to contact me with any inquires on{" "}
+						contact me with any inquires on{" "}
 						<Link
 							href="https://www.linkedin.com/in/jack-carleo-41695423b/"
 							target="_blank"
