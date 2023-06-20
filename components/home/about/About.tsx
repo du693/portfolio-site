@@ -35,6 +35,12 @@ export const About = () => {
 							largest focus in the past year.
 						</p>
 					</Reveal>
+					<p className={`${styles.aboutText}`}>
+						While I am currently working as a retail sales associate
+						at Marathon Sports and a server at Sin A Loa on
+						Salisbury Beach, I continue to work on projects in my
+						free time.
+					</p>
 					<Reveal>
 						<p className={`${styles.aboutText}`}>
 							My most recent project is this very website. This
