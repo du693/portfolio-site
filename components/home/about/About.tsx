@@ -31,25 +31,34 @@ export const About = () => {
 							this: SQL &#8594; R &#8594; Python(Flask) &#8594;
 							ReactJS. I have very much enjoyed learning about
 							each of these languages and their capabilities, but
-							Python and ReactJS have most definitely become my
-							largest focus in the past year.
+							ReactJS and web development have most definitely
+							become my largest focus in the past year.
 						</p>
 					</Reveal>
 					<Reveal>
 						<p className={`${styles.aboutText}`}>
-							While I am currently working as a retail sales
-							associate at Marathon Sports and a server at Sin A
-							Loa on Salisbury Beach, I continue to work on
-							projects in my free time.
+							I recently moved to south boston and am looking for
+							work as an entry level developer where I can work
+							alongside others who share a similar passsion.
 						</p>
 					</Reveal>
 					<Reveal>
 						<p className={`${styles.aboutText}`}>
-							My most recent project is this very website. This
-							represents my first ever deployed React application,
-							if you continue to scroll you will find the other
-							projects I have worked on and take pride in sharing
-							with you.
+							My most recent project is{" "}
+							<Link
+								href="https://github.com/du693/cheep"
+								target="_blank"
+								rel="nofollow"
+								className={`${styles.highlight}`}
+							>
+								Cheep Bird Watching
+							</Link>{" "}
+							. A scalable dynamic react nextjs application to
+							socialize birdwatching. I wrote the readME in the
+							repo to describe exactly what I have done with it
+							thus far and how I utilized node.js, googlemaps api,
+							openai prompt api, MongoDB, and birdNET audio
+							processor for identification process.
 						</p>
 					</Reveal>
 					<Reveal>

@@ -18,26 +18,24 @@ export const Projects = () => {
 
 const projects = [
 	{
-		title: "Job Scraper",
-		imgSrc: "project-imgs/logo.jpg",
-		code: "https://github.com/du693/job-scraper",
-		projectLink: "https://github.com/du693/job-scraper",
+		title: "Cheep Bird Watching",
+		imgSrc: "project-imgs/backgroundImage.png",
+		code: "https://github.com/du693/cheep",
+		projectLink: "https://github.com/du693/cheep",
 		tech: ["Python, Flask, HTML, CSS"],
 		description:
-			"Currently, the job scraper is local python web scraper that compiles results from popular job boards and displays them in a Flask application. ",
+			"With Cheep, you can document your sightings and view a detailed map filled with contributions from users all over New England. Ideal for both casual bird enthusiasts and serious birdwatchers, our app offers a clear and concise platform for tracking and sharing avian sightings. Dive in and enrich our collective understanding of local bird populations. Join today and contribute to a comprehensive bird spotting network.",
 		modalContent: (
 			<>
 				<p>
-					Currently, the job scraper is local python web scraper that
-					compiles results from popular job boards and displays them
-					in a Flask application. I made this project because
-					navigating through each individual job board was taking up
-					loads of time that I could be using to apply to positions
-					and studying. I figured that this project would not only
-					make the job searching process more efficient but also
-					further develop my skills with Python and app development.
-					While the app is still a work in progress I have already
-					started using and loving it.
+					With Cheep, you can document your sightings and view a
+					detailed map filled with contributions from users all over
+					New England. Ideal for both casual bird enthusiasts and
+					serious birdwatchers, our app offers a clear and concise
+					platform for tracking and sharing avian sightings. Dive in
+					and enrich our collective understanding of local bird
+					populations. Join today and contribute to a comprehensive
+					bird spotting network.
 				</p>
 			</>
 		),
