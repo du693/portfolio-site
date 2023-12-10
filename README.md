@@ -2,4 +2,4 @@ This portfolio website was a my first deployed React project incorporating Types
 
 Here is a link to Tom's youtube channel: https://www.youtube.com/channel/UCQ5JhZ8pS-MXnGBsyyy88MQ
 
-LIVE PROJECT: https://jackcarleo.vercel.app/
+LIVE PROJECT: https://jackcarleo.me
