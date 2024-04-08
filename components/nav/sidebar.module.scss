@@ -1,9 +1,6 @@
 .sideBar {
   background: var(--background-dark);
-
   height: 100vh;
-
-
   position: sticky;
   top: 0px;
   left: 0px;
@@ -18,7 +15,7 @@
   scrollbar-width: none; /* Firefox */
   @media (max-width: 768px){
     height: 100rem;
-    width: 80%;
+    width: 100%;
 }
 
 
