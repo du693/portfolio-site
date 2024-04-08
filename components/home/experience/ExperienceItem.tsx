@@ -3,7 +3,7 @@ import styles from "./experience.module.scss";
 
 interface Props {
 	title: string;
-	position: string;
+	company: string;
 	time: string;
 	location: string;
 	description: string;
@@ -12,7 +12,7 @@ interface Props {
 
 export const ExperienceItem = ({
 	title,
-	position,
+	company,
 	time,
 	location,
 	description,
@@ -22,17 +22,14 @@ export const ExperienceItem = ({
 		<div className={styles.experience}>
 			<div className={styles.heading}>
 				<Reveal>
-					<span className={styles.title}>{title}</span>
+					<span className={styles.title}>{title}&nbsp;</span>
 				</Reveal>
 				<Reveal>
-					<span>-{time}</span>
+					<span className={styles.company}>{company}</span>
 				</Reveal>
 			</div>
 
 			<div className={styles.heading}>
-				<Reveal>
-					<span className={styles.position}>{position}</span>
-				</Reveal>
 				<Reveal>
 					<span>{location}</span>
 				</Reveal>

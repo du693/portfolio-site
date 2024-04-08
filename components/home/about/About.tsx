@@ -14,32 +14,11 @@ export const About = () => {
 				<div>
 					<Reveal>
 						<p className={`${styles.aboutText}`}>
-							As a recent graduate of Providence College (2021)
-							with a degree in Sociology, I had little knowledge
-							of anything programming related outside of SQL. SQL
-							was introduced to me in my Social Research Methods
-							class my senior year (thanks Dr. Chelly) and though
-							I had very limited understanding of the topic
-							outside of very basic syntax I was interested in
-							learning more.
-						</p>
-					</Reveal>
-					<Reveal>
-						<p className={`${styles.aboutText}`}>
-							SQL was the beginning of my journey that led me to
-							where I am now. To simplify it, my path looked like
-							this: SQL &#8594; R &#8594; Python(Flask) &#8594;
-							ReactJS. I have very much enjoyed learning about
-							each of these languages and their capabilities, but
-							ReactJS and web development have most definitely
-							become my largest focus in the past year.
-						</p>
-					</Reveal>
-					<Reveal>
-						<p className={`${styles.aboutText}`}>
-							I recently moved to south boston and am looking for
-							work as an entry level developer where I can work
-							alongside others who share a similar passsion.
+							Since graduating Providence College (2021) as a D1
+							athlete with a degree in Sociology, I have been
+							developing my experience as a salesman and web
+							developer. Check out some of my projects and
+							experience below.
 						</p>
 					</Reveal>
 					<Reveal>
@@ -51,21 +30,13 @@ export const About = () => {
 								rel="nofollow"
 								className={`${styles.highlight}`}
 							>
-								Cheep Bird Watching
+								Titanic - Machine Learning from Disaster
 							</Link>{" "}
-							. A scalable dynamic react nextjs application to
-							socialize birdwatching. I wrote the readME in the
-							repo to describe exactly what I have done with it
-							thus far and how I utilized node.js, googlemaps api,
-							openai prompt api, MongoDB, and birdNET audio
-							processor for identification process.
+							A project to display a understanding of data
+							pipelining and basic machine learning concepts.
+							creating both a RFC and Logistic Regression model,
+							then comparing performance.
 						</p>
-					</Reveal>
-					<Reveal>
-						<div>
-							<p className={`${styles.aboutText}`}>Cheers,</p>
-							<p>-Jack</p>
-						</div>
 					</Reveal>
 					<br></br>
 					<Reveal>

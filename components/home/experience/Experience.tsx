@@ -14,36 +14,38 @@ export const Experience = () => {
 
 const experience = [
 	{
-		title: "Google Data Analytics Certification",
-		position: "",
-		time: "2022",
+		title: `SDR I\n`,
+		company: "ZoomInfo",
+		time: " Currently Employed",
 		location: "",
 		description:
-			"Learned the basics of data analysis using R, SQL, and Tableau.",
-		skills: ["R", "SQL", "Data-Driven Decision Making", "Tableau"],
+			"Engaging with prospective clients through phone calls to qualify and nurture leads.",
+		skills: ["Value Propping", "Communication", "Sales", "Salesforce"],
 	},
 	{
-		title: "Python for Everybody: University of Michigan",
-		position: "",
-		time: "2023",
+		title: "Customer Service Representative",
+		company: "Analog Devices",
+		time: "2022-2023",
 		location: "",
 		description:
-			"Gained proficiency in Python, object oriented programming, and Database structuring.",
-		skills: ["Python", "Web Scraping", "OOP", "Databases", "API's"],
-	},
-	{
-		title: "Sin a Loa & Marathon Sports",
-		position: "Resturaunt Server & Retail Sales Associate",
-		time: "Currently Employed",
-		location: "",
-		description:
-			"Currently working at Sin A Loa on Salisbury Beach as a server & Marathon Sports downtown Newburyport as a retail sales associate. If you are looking for good tacos and margaritas, stop by Sin a Loa :) While Marathon Sports does not sell margaritas we will gladly get you fitted in some great new running/walking shoes.",
+			"Admin work confirming/analyzing PO's and EDI transfers with clients.",
 		skills: [
 			"Customer Service",
 			"Serving",
 			"Sales",
 			"Communication",
 			"Organization",
+		],
+	},
+	{
+		title: "Certifications",
+		company: "",
+		time: "",
+		location: "",
+		description: ``,
+		skills: [
+			"Python for Everybody: University of Michigan\n",
+			"Google Data Analytics Certification",
 		],
 	},
 ];

@@ -15,14 +15,12 @@ export const Hero = () => {
 				</Reveal>
 				<Reveal>
 					<h2 className={styles.subTitle}>
-						I&apos;m a{" "}
 						<span>
 							<Typewriter
 								loop={true}
 								words={[
-									"Developer",
-									"Web Designer",
-									"Data Analyst",
+									"An SDR at ZoomInfo",
+									"A Web Developer",
 								]}
 								cursor
 								cursorStyle="_"
@@ -35,10 +33,11 @@ export const Hero = () => {
 				</Reveal>
 				<Reveal>
 					<p className={styles.aboutCopy}>
-						I&apos;ve spent the last 2 years teaching myself how to
-						program. This website acts as both a portfolio and
-						project. Please feel free to look around and make sure
-						to contact me with any questions!
+						<b>
+							Currently helping companies Go-To-Market at ZoomInfo
+							as an SDR while continuing my education as a web
+							developer.
+						</b>
 					</p>
 				</Reveal>
 				<Reveal>
