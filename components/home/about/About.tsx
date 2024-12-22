@@ -14,28 +14,16 @@ export const About = () => {
 				<div>
 					<Reveal>
 						<p className={`${styles.aboutText}`}>
-							Since graduating Providence College (2021) as a D1
-							athlete with a degree in Sociology, I have been
-							developing my experience as a salesman and web
-							developer. Check out some of my projects and
-							experience below.
-						</p>
-					</Reveal>
-					<Reveal>
-						<p className={`${styles.aboutText}`}>
-							My most recent project is{" "}
-							<Link
-								href="https://github.com/du693/cheep"
-								target="_blank"
-								rel="nofollow"
+							D1 track athlete, 6 months in customer service, 1
+							year in sales at ZoomInfo. If you are a small
+							business looking to grow and want to see how
+							ZoomInfo can help you do it book a time with me{" "}
+							<a
+								href="https://zoominfo.chilipiper.com/book/me/jack-carleo"
 								className={`${styles.highlight}`}
 							>
-								Titanic - Machine Learning from Disaster
-							</Link>{" "}
-							A project to display a understanding of data
-							pipelining and basic machine learning concepts.
-							creating both a RFC and Logistic Regression model,
-							then comparing performance.
+								Here.
+							</a>
 						</p>
 					</Reveal>
 					<br></br>
@@ -49,7 +37,6 @@ export const About = () => {
 						</div>
 					</Reveal>
 				</div>
-				<Stats />
 			</div>
 		</section>
 	);

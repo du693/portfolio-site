@@ -31,64 +31,6 @@ export const SideBar = () => {
 			animate={{ x: 0 }}
 			transition={{ duration: 0.5 }}
 			className={styles.sideBar}
-		>
-			<motion.a
-				initial={{ x: -70 }}
-				animate={{ x: 0 }}
-				transition={{ duration: 0.5, delay: 0.1 }}
-				href="/"
-				onClick={() => {
-					setSelected("/");
-				}}
-				className={selected === "/" ? styles.selected : ""}
-			>
-				<span className={styles.logo}>
-					JC<span>.</span>
-				</span>
-			</motion.a>
-
-			<motion.a
-				initial={{ x: -70 }}
-				animate={{ x: 0 }}
-				transition={{ duration: 0.5, delay: 0.1 }}
-				href="#about"
-				onClick={() => {
-					setSelected("about");
-				}}
-				className={selected === "about" ? styles.selected : ""}
-			>
-				About
-			</motion.a>
-			<motion.a
-				initial={{ x: -70 }}
-				animate={{ x: 0 }}
-				transition={{ duration: 0.5, delay: 0.2 }}
-				href="#projects"
-				onClick={() => setSelected("projects")}
-				className={selected === "projects" ? styles.selected : ""}
-			>
-				Projects
-			</motion.a>
-			<motion.a
-				initial={{ x: -70 }}
-				animate={{ x: 0 }}
-				transition={{ duration: 0.5, delay: 0.3 }}
-				href="#experience"
-				onClick={() => setSelected("experience")}
-				className={selected === "experience" ? styles.selected : ""}
-			>
-				Exp.
-			</motion.a>
-			<motion.a
-				initial={{ x: -70 }}
-				animate={{ x: 0 }}
-				transition={{ duration: 0.5, delay: 0.4 }}
-				href="#contact"
-				onClick={() => setSelected("contact")}
-				className={selected === "contact" ? styles.selected : ""}
-			>
-				Contact
-			</motion.a>
-		</motion.nav>
+		></motion.nav>
 	);
 };

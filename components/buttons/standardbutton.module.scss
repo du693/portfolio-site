@@ -12,12 +12,14 @@
 
   position: relative;
   z-index: 20;
-
   overflow: hidden;
-
   transition: 0.2s opacity;
+  @media (max-width: 768px) {
+    font-size: var(--text-xs);
+
+  }
 }
 
 .standardButton:hover {
-  opacity: 0.9;
+  opacity: 0.8;
 }

@@ -24,31 +24,51 @@ export const Hero = () => {
 								]}
 								cursor
 								cursorStyle="_"
-								typeSpeed={70}
-								deleteSpeed={50}
+								typeSpeed={100}
+								deleteSpeed={100}
 								delaySpeed={1000}
 							/>
 						</span>
 					</h2>
 				</Reveal>
 				<Reveal>
-					<p className={styles.aboutCopy}>
+					<div className={styles.aboutCopy}>
 						<b>
-							Currently helping companies Go-To-Market at ZoomInfo
-							as an SDR while continuing my education as a web
-							developer.
+							If you are a small business owner looking to grow -
+							book a time with me below to see how ZoomInfo can
+							help.
+							<br></br>
+							<br></br>
+							<div className={styles.box}>
+								<div className={styles.highlight}>
+									Work Email:
+								</div>
+
+								<div className={styles.marginL}>
+									jack.carleo@zoominfo.com
+								</div>
+							</div>
+							<div className={`${styles.box}`}>
+								<div className={`${styles.highlight}`}>
+									Personal Email:
+								</div>
+
+								<div className={styles.marginL}>
+									jackcarleo1@gmail.com
+								</div>
+							</div>
 						</b>
-					</p>
+					</div>
 				</Reveal>
-				<Reveal>
-					<StandardButton
-						onClick={() =>
-							document.getElementById("contact")?.scrollIntoView()
-						}
-					>
-						Contact me
-					</StandardButton>
-				</Reveal>
+				<div className={styles.buttonbox}>
+					<Reveal>
+						<StandardButton>
+							<a href="https://zoominfo.chilipiper.com/book/me/jack-carleo">
+								Book a time with me
+							</a>
+						</StandardButton>
+					</Reveal>
+				</div>
 			</div>
 			<DotGrid />
 		</section>
