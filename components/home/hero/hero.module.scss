@@ -1,7 +1,10 @@
 .hero {
   margin-bottom:0rem;
   @media (max-width: 768px) {
+    width:100%;
     position: absolute;
+    display: flex;
+    justify-content: center;
     top:0;
   }
 }
