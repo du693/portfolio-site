@@ -1,4 +1,5 @@
 import { StandardButton } from "@/components/buttons/StandardButton";
+import { CopyButton } from "@/components/buttons/CopyButton";
 import { Reveal } from "@/components/utils/Reveal";
 import { DotGrid } from "./DotGrid";
 import styles from "./hero.module.scss";
@@ -37,27 +38,21 @@ export const Hero = () => {
 							If you are a small business owner looking to grow -
 							book a time with me below to see how ZoomInfo can
 							help.
-							<br></br>
-							<br></br>
-							<div className={styles.box}>
-								<div className={styles.highlight}>
-									Work Email:
-								</div>
-
-								<div className={styles.marginL}>
-									jack.carleo@zoominfo.com
-								</div>
-							</div>
-							<div className={`${styles.box}`}>
-								<div className={`${styles.highlight}`}>
-									Personal Email:
-								</div>
-
-								<div className={styles.marginL}>
-									jackcarleo1@gmail.com
-								</div>
-							</div>
 						</b>
+						<br></br>
+						<br></br>
+						<div className={styles.box}>
+							<div className={styles.highlight}>Work Email:</div>
+
+							<CopyButton>jack.carleo@zoominfo.com</CopyButton>
+						</div>
+						<div className={`${styles.box}`}>
+							<div className={`${styles.highlight}`}>
+								Personal Email:
+							</div>
+
+							<CopyButton>jackcarleo1@gmail.com</CopyButton>
+						</div>
 					</div>
 				</Reveal>
 				<div className={styles.buttonbox}>

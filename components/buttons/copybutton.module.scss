@@ -1,0 +1,12 @@
+.buttonstyle {
+    all: unset;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: transform 0.3s ease; 
+    user-select: none;
+}
+
+.buttonstyle:active {
+    transform: scale(1.1);
+    transition: transform 0.3s ease; 
+}
