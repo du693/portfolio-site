@@ -32,35 +32,11 @@ export const Hero = () => {
 						</span>
 					</h2>
 				</Reveal>
-				<Reveal>
-					<div className={styles.aboutCopy}>
-						<b>
-							If you are a small business owner looking to grow -
-							book a time with me below to see how ZoomInfo can
-							help.
-						</b>
-						<br></br>
-						<br></br>
-						<div className={styles.box}>
-							<div className={styles.highlight}>Work Email:</div>
-
-							<CopyButton>jack.carleo@zoominfo.com</CopyButton>
-						</div>
-						<div className={`${styles.box}`}>
-							<div className={`${styles.highlight}`}>
-								Personal Email:
-							</div>
-
-							<CopyButton>jackcarleo1@gmail.com</CopyButton>
-						</div>
-					</div>
-				</Reveal>
+				<br></br>
 				<div className={styles.buttonbox}>
 					<Reveal>
 						<StandardButton>
-							<a href="https://zoominfo.chilipiper.com/book/me/jack-carleo">
-								Book a time with me
-							</a>
+							<a href="mailto:jackcarleo1@gmail.com">Email me</a>
 						</StandardButton>
 					</Reveal>
 				</div>
